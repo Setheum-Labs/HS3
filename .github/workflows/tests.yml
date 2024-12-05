@@ -31,7 +31,7 @@ jobs:
       SCCACHE_CACHE_SIZE: "50G"
     needs: cancel
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Install toolchain
       uses: dtolnay/rust-toolchain@nightly
       with:
